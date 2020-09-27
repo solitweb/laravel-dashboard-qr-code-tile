@@ -29,7 +29,9 @@ return [
     // ...
     'tiles' => [
         'qr_code' => [
-            'codes' => env('QR_CODE_WIFI'),
+            'codes' => [
+                env('QR_CODE_WIFI'),
+            ],
         ],
     ],
 ];
